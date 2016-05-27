@@ -40,7 +40,7 @@ module.exports = function(grunt) {
       },
       chrome: {
         options: {
-          archive: 'dist/<%= pkg.version %>/LiveReload-<%= pkg.version %>-ChromeWebStore.zip'
+          archive: 'dist/<%= pkg.version %>/LiveReloadHttps-<%= pkg.version %>-ChromeWebStore.zip'
         },
         files: [
           { expand: true, cwd: 'Chrome/LiveReload', src: ['**.{json,js,html,png}'], dest: 'LiveReload/' }
